@@ -24,7 +24,37 @@
       "properties": {
         "folder-path-color.folders": {
           "type": "array",
-          "default": [],
+          "default": [
+            { "path": "{apps,packages,libs,tools}/**" },
+            { "path": "**/{apps,packages,libs,tools}/**" },
+
+            { "path": "{app,pages}/**" },
+            { "path": "**/{app,pages}/**" },
+            { "path": "{components,ui,shadcn}/**" },
+            { "path": "**/{components,ui,shadcn}/**" },
+            { "path": "{hooks,utils,lib,actions,store,context,types}/**" },
+            { "path": "**/{hooks,utils,lib,actions,store,context,types}/**" },
+
+            { "path": "{public,assets,styles,theme}/**" },
+            { "path": "**/{public,assets,styles,theme}/**" },
+
+            { "path": "{supabase,prisma,drizzle,convex,vectors}/**" },
+            { "path": "**/{supabase,prisma,drizzle,convex,vectors}/**" },
+            { "path": "{db,migrations}/**" },
+            { "path": "**/{db,migrations}/**" },
+
+            { "path": "{.github,.husky}/**" },
+            { "path": "**/{.github,.husky}/**" },
+            { "path": "{docker,k8s,terraform}/**" },
+            { "path": "**/{docker,k8s,terraform}/**" },
+            { "path": "{e2e,cypress}/**" },
+            { "path": "**/{e2e,cypress}/**" },
+
+            { "path": "{dist,build,coverage}/**", "color": "ignored" },
+            { "path": "**/{dist,build,coverage}/**", "color": "ignored" },
+            { "path": "{node_modules}/**", "color": "ignored" },
+            { "path": "**/{node_modules}/**", "color": "ignored" }
+          ],
           "items": {
             "type": "object",
             "properties": {
@@ -50,50 +80,103 @@
       {
         "id": "folderPathColor.custom1",
         "description": "Assignable custom color 1 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#ABCDEF",
-          "light": "#123456"
-        }
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
       },
       {
         "id": "folderPathColor.custom2",
         "description": "Assignable custom color 2 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#FEDCBA",
-          "light": "#654321"
-        }
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
       },
       {
         "id": "folderPathColor.custom3",
         "description": "Assignable custom color 3 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#AADDFF",
-          "light": "#336699"
-        }
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
       },
       {
         "id": "folderPathColor.custom4",
         "description": "Assignable custom color 4 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#FF99AA",
-          "light": "#882244"
-        }
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
       },
       {
         "id": "folderPathColor.custom5",
         "description": "Assignable custom color 5 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#AAFF99",
-          "light": "#448822"
-        }
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
       },
       {
         "id": "folderPathColor.custom6",
         "description": "Assignable custom color 6 for the Folder Path Color extension",
-        "defaults": {
-          "dark": "#AA99FF",
-          "light": "#442288"
-        }
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+
+      {
+        "id": "folderPathColor.custom7",
+        "description": "Assignable custom color 7 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom8",
+        "description": "Assignable custom color 8 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom9",
+        "description": "Assignable custom color 9 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom10",
+        "description": "Assignable custom color 10 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom11",
+        "description": "Assignable custom color 11 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom12",
+        "description": "Assignable custom color 12 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom13",
+        "description": "Assignable custom color 13 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom14",
+        "description": "Assignable custom color 14 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom15",
+        "description": "Assignable custom color 15 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom16",
+        "description": "Assignable custom color 16 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom17",
+        "description": "Assignable custom color 17 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom18",
+        "description": "Assignable custom color 18 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
+      },
+      {
+        "id": "folderPathColor.custom19",
+        "description": "Assignable custom color 19 for the Folder Path Color extension",
+        "defaults": { "dark": "#FF00FF", "light": "#FF00FF" }
+      },
+      {
+        "id": "folderPathColor.custom20",
+        "description": "Assignable custom color 20 for the Folder Path Color extension",
+        "defaults": { "dark": "#39FF14", "light": "#39FF14" }
       }
     ]
   },

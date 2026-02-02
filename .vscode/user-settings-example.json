@@ -1,0 +1,53 @@
+{
+  "workbench.colorCustomizations": {
+    "folderPathColor.custom1": "#DD00FF",
+    "folderPathColor.custom2": "#00FF66",
+    "[Default Dark+]": {
+      "folderPathColor.custom1": "#E94DFF",
+      "folderPathColor.custom2": "#00FF7F"
+    },
+    "[Default Light+]": {
+      "folderPathColor.custom1": "#B800D8",
+      "folderPathColor.custom2": "#00CC52"
+    }
+  },
+  
+  "folder-path-color.folders": [
+    {
+      "path": "src/components",
+      "color": "custom1",
+      "symbol": "💜",
+      "tooltip": "Components - Hot Purple"
+    },
+    {
+      "path": "src/utils",
+      "color": "custom2",
+      "symbol": "💚",
+      "tooltip": "Utilities - Hot Green"
+    },
+    {
+      "path": "**/test",
+      "color": "custom1",
+      "symbol": "🧪",
+      "tooltip": "Test Files - Hot Purple"
+    },
+    {
+      "path": "**/api",
+      "color": "custom2",
+      "symbol": "🚀",
+      "tooltip": "API Files - Hot Green"
+    },
+    {
+      "path": "packages/*",
+      "color": "custom1",
+      "symbol": "📦",
+      "tooltip": "Packages - Hot Purple"
+    },
+    {
+      "path": "**/config",
+      "color": "custom2",
+      "symbol": "⚙️",
+      "tooltip": "Config Files - Hot Green"
+    }
+  ]
+}

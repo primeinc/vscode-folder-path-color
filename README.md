@@ -74,6 +74,28 @@ Example configuration:
 },
 ```
 
+### Ready-to-Use Example: Hot Purple / Hot Green Color Scheme
+
+Want to try out a vibrant purple and green color scheme? We've prepared a complete example configuration that you can copy and paste into your VS Code settings.
+
+**How to use:**
+
+1. Open VS Code User Settings:
+   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+   - Type "Preferences: Open User Settings (JSON)"
+   - Press Enter
+2. Open the [user-settings-example.json](.vscode/user-settings-example.json) file
+3. Copy the content and paste it into your User Settings JSON file
+4. The hot purple and hot green colors will be applied to your folders automatically!
+
+This example includes:
+- 🎨 Designer-grade hot purple (`#DD00FF`) and hot green (`#00FF66`) colors
+- 🌓 Theme-specific color variants optimized for both dark and light themes
+- 📂 Sample folder configurations with matching emoji symbols
+- 🎯 Glob patterns showing various use cases (components, tests, APIs, packages, config)
+
+Feel free to customize the colors and folder paths to match your project structure!
+
 ## Following extension guidelines
 
 This extension follows the [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) provided by Visual Studio Code.
